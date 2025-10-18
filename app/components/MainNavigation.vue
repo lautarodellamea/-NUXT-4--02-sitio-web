@@ -9,7 +9,7 @@
         <NuxtLink to="/products">Products</NuxtLink>
       </li>
       <li>
-        <NuxtLink :to="{ path: 'about' }">About</NuxtLink>
+        <NuxtLink to="/about">About</NuxtLink>
       </li>
       <li>
         <NuxtLink to="/pricing">Pricing</NuxtLink>

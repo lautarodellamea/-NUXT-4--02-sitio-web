@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
 
+  // agregar los estilos globales
   css: ["~/assets/main.css"],
 
   // Metadatos de la aplicación - globalmente
@@ -15,7 +16,8 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/eslint", "@nuxt/fonts", "@nuxt/icon", "@nuxt/image"],
+  // agregar los modulos que se van a usar
+  modules: ["@nuxt/eslint", "@nuxt/fonts", "@nuxt/icon", "@nuxt/image", "@nuxt/ui"],
 
   // Esto es para que nuxt genere un sitio estatico
   // SPA - Single Page Application

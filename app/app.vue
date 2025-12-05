@@ -1,9 +1,14 @@
 <template>
   <!-- para elegir cual layout usar -->
   <!-- <NuxtLayout name="dashboard-layout"> -->
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <!-- UApp es el componente principal de NuxtUI que nos permite usar todos los componentes de NuxtUI -->
+  <UApp>
+    <!-- NuxtLayout es el componente principal de Nuxt que nos permite usar todos los layouts de Nuxt -->
+    <NuxtLayout>
+      <!-- NuxtPage es el componente principal de Nuxt que nos permite usar todas las paginas de Nuxt -->
+      <NuxtPage />
+    </NuxtLayout>
+  </UApp>
 </template>
 
 <!-- si no le ponemos el scope, estos estilos seran globales -->
